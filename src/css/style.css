@@ -1,0 +1,303 @@
+body {
+    margin: 18px 16px;
+    height: 100vh;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+}
+
+a {
+    width: 174px;
+    height: 44px;
+    color: #fff;
+    background-color: black;
+    border-radius: 30px;
+    float: right;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baseline{
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    grid-template-rows: repeat(6,180px);
+}
+
+.tile {
+    background-color: #755CDE;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.tile img {
+    position: absolute;
+    right: 0;
+    margin: 24px;
+}
+
+.tile h2 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 24px;
+    color: white;
+}
+
+.UIUX {
+    background-color: #F6A560;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.UIUX img {
+    position: absolute;
+    right: 0;
+    margin-right: 24px;
+    margin-top: 24px;
+}
+
+.UIUX h2 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 24px;
+    color: white;
+}
+
+.apps {
+    background-color: #F39E9E;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.apps img {
+    position: absolute;
+    right: 0;
+    margin-right: 24px;
+    margin-top: 24px;
+}
+
+.apps h2 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 24px;
+    color: white;
+}
+
+.illus {
+    background-color: #EB7565;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.illus img {
+    position: absolute;
+    right: 0;
+    margin-right: 24px;
+    margin-top: 24px;
+}
+
+.illus h2 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 24px;
+    color: white;
+}
+
+.photogra {
+    background-color: #61C4B7;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.photogra img {
+    position: absolute;
+    right: 0;
+    margin-right: 24px;
+    margin-top: 24px;
+}
+
+.photogra h2 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 24px;
+    color: white;
+}
+
+.mention {
+    background-color: #552049;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.mention img {
+    position: absolute;
+    right: 0;
+    margin-right: 24px;
+    margin-top: 24px;
+}
+
+.mention h2 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 24px;
+    color: white;
+}
+
+.amy {
+    width: 91vw;
+    text-align: center;
+}
+
+.amy img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30%;
+}
+
+.amy h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.amy p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+}
+
+.btnFree {
+    background-color: #EB7565;
+    margin: 0px 84px 0px 84px;
+}
+
+.work {
+    width: 92vw;
+}
+
+.work h2 {
+    margin-top: 180px;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.work div {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 140px;
+}
+
+.Aleft {
+    background-color: black;
+    width: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.Aright {
+    background-color: black;
+    width: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.book {
+    width: 92vw;
+}
+
+.book div {
+    width: 100%;
+    height: 352px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.book h2 {
+    color: #fff;
+    width: 90%;
+    margin: 5%;
+    padding-top: 40px;
+}
+
+.book p {
+    color: #fff;
+    width: 80%;
+    margin: 10%;
+    line-height: 25px;
+}
+
+.book a {
+    bottom: 0;
+    margin-bottom: 40px;
+}
+
+
+.foo {
+    width: 92vw;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
